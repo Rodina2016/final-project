@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main menu snapShot 1`] = `
+<div
+  className="MainMenu-root-1"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthMd"
+  >
+    <div
+      className="MainMenu-wrap-2"
+    >
+      <div
+        className="MainMenu-item-3"
+      >
+        <a
+          aria-current="page"
+          className="MainMenu-link-4 active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Main
+        </a>
+      </div>
+      <div>
+        <a
+          aria-current={null}
+          className="MainMenu-link-4"
+          href="/catched-pokemons"
+          onClick={[Function]}
+        >
+          Catched pokemons
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

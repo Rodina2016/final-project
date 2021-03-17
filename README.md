@@ -1,4 +1,9 @@
 # Final project
+
+* npm install
+* json-server --watch db.json --port 8080
+* npm start
+
 ### Deadline: 17.03
 Для выполнения этого ДЗ Вам понадобятся следующие npm-пакеты:
 
