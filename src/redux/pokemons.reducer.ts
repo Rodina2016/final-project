@@ -3,15 +3,15 @@ const pokemonsState = {
     pending: false
 }
 
-export const loadPokemons = (state = pokemonsState,
-                             action: {
-                                 type: string,
-                                 status: string,
-                                 payload: [
-                                     {name: string, id: number}
-                                     ]
-                             }
-                                 ) => {
+type actionType = {
+    type: string,
+    status: string,
+    payload: [
+        {name: string, id: number}
+    ]
+}
+
+export const loadPokemons = (state = pokemonsState, action: actionType) => {
     switch (action.type) {
         case 'LOAD_POKEMONS': {
             switch (action.status) {
